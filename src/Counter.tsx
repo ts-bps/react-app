@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export class Counter extends React.Component<{ count: number }> {
+export class Counter extends React.Component<{}, { count: number }> {
   state = {
     count: 0
   };

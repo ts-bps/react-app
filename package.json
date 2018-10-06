@@ -7,7 +7,8 @@
     "start": "parcel ./public/dev/index.html --open",
     "build": "parcel build ./src/index.tsx --out-dir build/ && cp ./public/prod/index.html ./build/index.html",
     "serve:build": "serve --open ./build/",
-    "test": "jest"
+    "test": "jest --coverage",
+    "test:i": "jest --watch --coverage"
   },
   "dependencies": {
     "react": "^16.5.2",
@@ -29,5 +30,8 @@
   },
   "jest": {
     "preset": "ts-jest"
-  }
+  },
+  "collectCoverageFrom": [
+    "src/*.{ts,tsx}"
+  ]
 }
