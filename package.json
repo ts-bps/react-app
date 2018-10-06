@@ -24,7 +24,7 @@
     "parcel-bundler": "^1.10.1",
     "prettier": "^1.14.3",
     "react-test-renderer": "^16.5.2",
-    "serve": "^6.5.6",
+    "serve": "latest",
     "ts-jest": "^23.10.3",
     "typescript": "^3.1.1"
   },
